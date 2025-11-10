@@ -1,0 +1,22 @@
+[project]
+name = "retraining-data-store-optimization"
+version = "0.1.0"
+description = "It is a retraining project made with OpenClassrooms. The goal is to optimize the data of the store."
+authors = [
+    {name = "Timothe Duquesne",email = "timothe.duquesne@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "sqlalchemy (>=2.0.44,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+[tool.poetry]
+package-mode=false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

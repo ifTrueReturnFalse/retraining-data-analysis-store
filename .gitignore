@@ -1,0 +1,8 @@
+# Virtual environnement
+.venv/
+
+# Python cache folders
+*__pycache__/
+
+# Not my work
+template_bottleneck.ipynb
