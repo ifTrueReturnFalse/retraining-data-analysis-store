@@ -11,7 +11,10 @@ requires-python = ">=3.13"
 dependencies = [
     "pandas (>=2.3.3,<3.0.0)",
     "sqlalchemy (>=2.0.44,<3.0.0)",
-    "openpyxl (>=3.1.5,<4.0.0)"
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "plotly (>=6.5.0,<7.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "nbformat (>=5.10.4,<6.0.0)"
 ]
 
 [tool.poetry]
