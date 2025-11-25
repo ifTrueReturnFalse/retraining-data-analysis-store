@@ -3,3 +3,6 @@
 
 # Python cache folders
 *__pycache__/
+
+# Output file
+bottleneck_stock.xlsx
